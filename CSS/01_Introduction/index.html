@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+
+    <!-- external css - giving link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- internal css -->
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color:blue ; text-align: center; font-size: 18px;">Hello! Welcome to CSS</h1>
+
+    <!-- Inline CSS > Internal CSS > External CSS -->
+
+    <!-- you can assign multiple classes to an element -->
+<p class="para para1 para2 para3">This is a para 1</p>
+<!-- in HTML we can add multiple class but id should be unique and in one html there should be just one id with one name-->
+<p class="para para1">This is a para 2</p>
+<p class="para" id="content">This is a para 3</p>
+<!-- in one single file there should be only 1 unique, single id value. It will work but its not a good practice. -->
+<p class="para" id="content">This is a para 4</p>
+<p class="para">This is a para 5</p>
+    
+<!-- types f reselctor types - element, class, id, universal selector, attribute selector -->
+ <input type="text" required>
+</body>
+
+
+</html>

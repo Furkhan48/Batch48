@@ -1,0 +1,45 @@
+/* universal selecter is "*" - it is used to give boiler plate code to css. */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* external css */
+
+h1{
+            color: rgb(104, 206, 9);
+            text-align: center;
+            font-size: 18px;
+        }
+
+p{
+    color: violet;
+}
+
+/* to represent class you should use . */
+
+/* in css : Properties get over-written */
+.para {
+    color: brown;
+    background-color: aqua;
+}
+
+/* in the above example, .para is a class which you are overriding over p style */
+
+.para1{
+    color: black;
+}
+
+/* to assign css to id, you need to use "#" */
+
+#content{
+    text-align: center;
+}
+
+input[required]{
+    color: red;
+}
+
+p[class~="para3"]{
+    color: chocolate;
+}
