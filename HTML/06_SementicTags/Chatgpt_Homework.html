@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form method="POST">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Fill The Form Below</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Name:</th>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <th>Password:</th>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <th>Feedback:</th>
+                        <td><textarea name="feedback" id="feedback" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Gender:</th>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Subjects:</th>
+                        <td>
+                            <input type="checkbox" name="subjects" value="Web"> Web
+                            <input type="checkbox" name="subjects" value="Maths"> Maths
+                            <input type="checkbox" name="subjects" value="Graphics"> Graphics
+                            <input type="checkbox" name="subjects" value="English"> English
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="reset" value="Reset All">
+                            <input type="submit" value="Submit Above Details">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+    
+</body>
+</html>
