@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        
+        *{
+            font-family: sans-serif;
+        }
+        
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 25px auto;
+        }
+
+        .logo h2{
+            color: blue;
+        }
+        
+        ul{
+            display: flex;
+            gap: 20px;
+            
+        }
+
+        ul li{
+            list-style: none;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .banner{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 70px auto;
+        }
+
+        .right-section img{
+            min-width: 100px;
+            max-width: 400px;
+            max-height: 400px;
+            min-height: 100px;
+        }
+
+        .left-section h1{
+            font-size: 3rem;
+        }
+
+        .left-section p{
+            font-size: 1.1rem;
+            margin-top: 30px;
+            line-height: 20px;
+        }
+
+
+        .left-section .btn button{
+            padding: 10px 19px ;
+            margin: 20px 5px;
+            border-radius: 7px;
+            border: none;
+        }
+
+
+        .pages{
+            color: rgb(255, 255, 255);
+            background-color: blue;
+        }
+
+        .documentation{
+            background-color: cyan;
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- navigation bar goes here -->
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <h2 style="font-family: sans-serif;">Devkit.</h2></div>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+    
+    <!-- banner or hero goes here -->
+    <section class="banner">
+        <div class="left-section">
+            <h1>Welcome to  <span style="color: blue;">Devkit</span><br>Develop anything.</h1>
+            <p>Build a beautiful, modern website with flexible components <br> built from scratch.</p>
+        
+        <div class="btn">
+            <button class="pages">
+                View All Pages <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button class="documentation">Documents</button>
+        </div>    
+        </div>
+        <div class="right-section">
+            <img src="./sysadmin_03.jpg" alt="pic">
+        </div>
+        
+    </section>
+</body>
+</html>
