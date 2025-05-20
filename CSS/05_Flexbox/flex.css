@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* hv means - viewport height */
+    /* vw means - viewport width */
+
+    align-items: center;
+    /* justify-content: center; */
+    /* flex start, end and center is most useful */
+}
+/* interview ques - HOW TO CENTER A DIV?? */
+/* There are multiple ways - position, flex & grid */
+
+
+/* Align vs justify --> Align  will place element vertically || justify will place elements horizontally */
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: antiquewhite;
+
+}
+
+.child1{
+    /* flex-grow: 1; */
+    align-self: flex-start;
+}
+
+/* WHAT IS FLEX shrink and flex grow?? */
+
+.child6{
+    /* flex-shrink: 0; */
+    align-self: flex-start;
+}
+
+/* What is the difference btwn align-content vs align-self */
+
+/* Align self means it applies only to the child elements only! */
+/* Align content can be used for flex, grid & even for individual.  It has to be applied to parent element only. It has to be used with flex:wrap */
+

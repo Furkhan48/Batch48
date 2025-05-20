@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+
+        body{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            background-color: greenyellow;
+        }
+        .parent{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(161, 32, 32);
+            /* display: flex; */
+        }
+
+
+
+        .static{
+            height: 100px;
+            width: 100px;
+            background-color: bisque;
+            /* if you apply any property to static, it will not change any position. thus, it is not ideally used*/
+
+        }
+         .relative{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(89, 35, 216);
+            position: relative;
+            top: 20px;
+            left: 20px;
+            /* relative works or arranges as per its normal position only. Meaning   */
+            
+        }
+         .absolute{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(41, 175, 29);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+
+        /* position:absolute takes the element out of the normal flow of the document. It arranges itself according to the nearest ancestor */
+        /* it you want to define any element's ancestor - you can define position:relative to the parent class  */
+    </style>
+</head>
+<body>
+    
+
+    <div class="parent">
+        <div class="static">Static</div>
+        <div class="relative">Relative</div>
+        <div class="absolute">Absolute</div>
+
+
+    </div>
+</body>
+</html>
