@@ -1,0 +1,117 @@
+/* body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bachelor%27s_button%2C_Basket_flower%2C_Boutonniere_flower%2C_Cornflower_-_3.jpg/1200px-Bachelor%27s_button%2C_Basket_flower%2C_Boutonniere_flower%2C_Cornflower_-_3.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    /* another concept to color background is used with 'linear gradient
+
+
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+    /* width: 100vh;
+    height: 100vw; */
+}
+
+.parent{
+    background-color: beige;
+    width: 200px;
+
+        /* em & rem */
+
+    /* em-> works on fontsize and in nested elements, and multiplies child by x of parent (x em) */
+    /* rem-> it will be related to the root element -> Like body!*/
+
+    font-size: 10px;
+}
+
+.parent div{
+    background-color: greenyellow;
+    width: 50%;
+
+    /* applying em */
+    /* font-size: 2em; */
+    /* applying rem */
+    font-size: 2rem;
+}
+
+
+
+h1{
+    color: rgba(255, 100, 23, 0.5);
+    /* for colors, there are 3 major forms of techniques -
+    1. RGB
+    2. Hex number #
+    3. Exact values */
+    /* Generally we use RGB and Hex # values. */
+    /* You can get rgb and hex value can be attained from web like -  tranding pallets & color hunt or coolors.co*/
+}
+    
+
+    /* for putting hex value you need to put # */
+
+    p{
+        color: #ca7842;
+    }
+
+
+
+    /* CSS Units */
+
+    /* 2 types of units in CSS */
+
+    /* Absolute and Relative */
+
+    /* Absolute - fixed for all. */
+
+    /* Relative means  */
+
+
+
+
+/* use vw & % when working with width and height*/
+
+/* use rem, em & px (pixel) when using fontsizes. */
+
+/* z-index */
+
+.one{
+    background-color: blueviolet;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+.two{
+    background-color: rgb(43, 226, 171);
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 230px;
+    z-index: 2;
+}
+.three{
+    background-color: rgb(226, 70, 43);
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    z-index: 3;
+}
+.four{
+    background-color: rgb(63, 20, 104);
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 290px;
+    left: 290px;
+    z-index: 4;   
+}
